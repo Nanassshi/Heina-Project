@@ -26,10 +26,10 @@
                 top: 50%;
                 text-transform: uppercase;
                 font-size: 6em;
-                color: #ffe6ff;
-                text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem darkred,
-                -0.2rem 0.1rem 1rem darkred, 0.2rem 0.1rem 1rem darkred,
-                0 -0.5rem 2rem ghostwhite, 0 0.5rem 1rem darkred;
+                color: #a553f6;
+                text-shadow: 0 0 0.6rem #a553f6, 0 0 1.5rem #ff5fdc,
+                -0.2rem 0.1rem 1rem #2f1946, 0.2rem 0.1rem 1rem #2f1946,
+                0 -0.5rem 2rem #ff5fdc, 0 0.5rem 1rem #2f1946;
                 animation: shine 2s forwards, flicker 3s infinite;
             }
 
@@ -38,19 +38,19 @@
                 22%,
                 36%,
                 75% {
-                    color: #ffe6ff;
-                    text-shadow: 0 0 0.6rem darkred, 0 0 1.5rem darkred,
-                    -0.2rem 0.1rem 1rem ghostwhite, 0.2rem 0.1rem 1rem firebrick,
-                    0 -0.5rem 2rem darkred, 0 0.5rem 1rem darkred;
+                    color: #a553f6;
+                    text-shadow: 0 0 0.6rem #ff5fdc, 0 0 1.5rem #2f1946,
+                    -0.2rem 0.1rem 1rem #a553f6, 0.2rem 0.1rem 1rem #ff5fdc,
+                    0 -0.5rem 2rem #ff5fdc, 0 0.5rem 1rem #2f1946;
                 }
                 28%,
                 33% {
-                    color: darkred;
+                    color: #ff5fdc;
                     text-shadow: none;
                 }
                 82%,
                 97% {
-                    color: red;
+                    color: #ff5fdc;
                     text-shadow: none;
                 }
             }
@@ -65,14 +65,14 @@
 
             @keyframes shine {
                 0% {
-                    color: #6b1839;
+                    color: #2f1946;
                     text-shadow: none;
                 }
                 100% {
-                    color: #ffe6ff;
-                    text-shadow: 0 0 0.6rem firebrick, 0 0 1.5rem red,
-                    -0.2rem 0.1rem 1rem firebrick, 0.2rem 0.1rem 1rem white,
-                    0 -0.5rem 2rem crimson, 0 0.5rem 3rem red;
+                    color: #a553f6;
+                    text-shadow: 0 0 0.6rem #ff5fdc, 0 0 1.5rem #2f1946,
+                    -0.2rem 0.1rem 1rem #2f1946, 0.2rem 0.1rem 1rem #ff5fdc,
+                    0 -0.5rem 2rem #ff5fdc, 0 0.5rem 3rem #2f1946;
                 }
             }
 
@@ -211,10 +211,10 @@
             .neonNav {
                 color: #fff;
                 text-shadow:
-                    0 0 7px crimson,
-                    0 0 10px darkred,
-                    0 0 21px darkred,
-                    0 0 42px darkred;
+                    0 0 7px #ff5fdc,
+                    0 0 10px #2f1946,
+                    0 0 21px #2f1946,
+                    0 0 42px #2f1946;
             }
 
             .neonText {
@@ -241,18 +241,21 @@
                 margin-bottom: 20px;
             }
 
-            body{
-                background-color: #15181b;
+            body {
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                backdrop-filter: brightness(0.4);
+                background-image: url("https://celes.club/uploads/posts/2022-06/1655756136_1-celes-club-p-neonovaya-tekstura-krasivo-1.jpg")
             }
 
             .neonStatic{
-                text-shadow: 0 0 7px #fff;
-                color: #fff;
+                text-shadow: 0 0 7px #a553f6;
+                color: #a553f6;
             }
 
             .neonH{
-                text-shadow: 0 0 3px #fff;
-                color: #fff;
+                text-shadow: 0 0 3px #a553f6;
+                color: #a553f6;
                 font-weight: lighter
             }
 
@@ -295,14 +298,14 @@
                 padding: 15px 30px;
                 transition: 0.2s;
                 margin-right: 100px;
-                color: darkred;
+                color: #8446c2;
             }
 
             .neon-btn:hover{
-                background-color: darkred;
+                background-color: #8446c2;
                 color: #fff;
-                border: 1px solid darkred;
-                box-shadow: 10px 10px 50px 6px darkred;
+                border: 1px solid #8446c2;
+                box-shadow: 10px 10px 50px 6px #8446c2;
             }
 
             .avatar-btn{
@@ -313,14 +316,14 @@
                 padding: 7px 15px;
                 transition: 0.4s;
                 margin-right: 100px;
-                color: #ffffff;
+                color: #8446c2;
             }
 
             .avatar-btn:hover{
-                background-color: #ffffff;
+                background-color: #8446c2;
                 color: #14181b;
-                border: 1px solid #ffffff;
-                box-shadow: 1px 1px 4px 1px #ffffff;
+                border: 1px solid #8446c2;
+                box-shadow: 1px 1px 4px 1px #8446c2;
             }
 
             .chat-btn{
@@ -629,6 +632,8 @@
             #okno {
                 transition: .5s;
                 width: 600px;
+                max-width: 90%;
+                max-height: 100%;
                 height: 650px;
                 text-align: center;
                 padding: 15px;
@@ -704,8 +709,8 @@
             .review{
                 background-color: #202529;
                 color: white;
-                border: 1px solid white;
-                box-shadow: 0 0 2px 1px white;
+                border: 1px solid #8446c2;
+                box-shadow: 0 0 2px 1px #8446c2;
             }
 
             .review-form{
@@ -717,16 +722,17 @@
             }
             .review-form:focus{
                 background-color: #202529;
-                color:white;
-                border: 1px solid white;
-                box-shadow: 0 0 2px 1px white;
+                color:#8446c2;
+                border: 1px solid #8446c2;
+                box-shadow: 0 0 2px 1px #8446c2;
             }
 
             .review-btn{
-                border: white 2px solid;
-                box-shadow: 0 0 2px 1px white;
+                border: #8446c2 2px solid;
+                box-shadow: 0 0 2px 1px #8446c2;
+                background-color: #8446c2;
                 padding: 10px 10px;
-                font-size: 15px;
+                font-size: 20px;
                 border-radius: 7%;
             }
 
@@ -807,7 +813,7 @@
                                 </li>
                             @endauth
 
-                            <li class="nav-item mt-5">
+                            <li class="nav-item mt-3">
                                 <a class="nav-link mt-5" href="/partnership">
                                     <i class="fa-solid fa-laptop fa-2xs"></i>
                                     Связаться с разработчиками

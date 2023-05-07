@@ -1,7 +1,7 @@
 @extends('template')
 @section('title', 'Навигация по серверу')
 @section('content')
-    <h1 class="neonH text-center" style="margin-bottom: 50px">Навигация по серверу</h1>
+    <h1 class="neonH text-center" style="margin-bottom: 70px; margin-top: 150px">Навигация по серверу</h1>
 
     <div id="rules" class="element-animation mx-auto col-sm-12">
         <div id="okno" class="col-sm-12">

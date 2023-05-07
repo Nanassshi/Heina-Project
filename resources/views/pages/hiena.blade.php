@@ -8,7 +8,7 @@
                 <p class="def-text">Сервер Hiena был создан далекой зимой 2022 года. Хотя всем все равно на историю сервера, но мб кто-то прочитает. Так вот, изначально здесь болтало около 5 человек, и все это выглядело, как обычная беседка каких-то задротов. Но однажды адмэна осинила гениальная мысль попробовать создать полноценный сервер, хотя вскоре забил на идею. Но летом 2022 года все таки начинает зарождаться проект, так как мне (овнеру) нечего было делать. Тратились часы работы, зачастую глупой, так как для меня все это было впервые. И попотев, к концу лета получил сервачок с 800+ участниками, которые выдавали актив побольше, чем тысячники-сервера. Но началась осень и админчику бедному, как и большенству другому, пришлось начать учиться. И так проект был заброшен. Нооооо сейчас снова наступает лето и это значит, что снова будет что-то мутиться вокруг сервера. <span style="color: dimgrey; font-size: xx-small; margin-left: 100px">Пиши админу в лс, если кринжанул)</span></p>
             </div>
             <div class="col-sm-12 col-lg-4 mt-5">
-                <img class="img-fluid img-border" src="https://sun9-56.userapi.com/impg/sPyP2QEo00KXeCFiMMZ81WlJPgDj6oJQlqlSvQ/sKetX6f2wQI.jpg?size=1080x946&quality=95&sign=2eca0a54c55fb9fe251e52c3e88b5cd5&type=album">
+                <img class="img-fluid img-border" style=" border: 1px solid #a553f6; box-shadow: 3px 1px 25px 3px #a553f6;" src="https://sun9-49.userapi.com/impg/8JT1TgbLpmwwYUNJXlckxWGh3RkDXFY4pieAdQ/E7Q6jjNCXC4.jpg?size=1080x949&quality=95&sign=929c374faa7289ba88d65e63cd3d02fa&type=album">
             </div>
         </div>
 
@@ -38,7 +38,7 @@
             <div class="col-sm-12 col-lg-10 mx-auto" style="margin-top: 50px">
                 @foreach($reviews as $review)
                     <div class="card review mt-4">
-                        <div class="card-header" style="border-bottom: 1px solid white; box-shadow: 0 0 2px 1px white;">
+                        <div class="card-header" style="border-bottom: 1px solid #8446c2; box-shadow: 0 0 2px 1px #8446c2;">
                             <img style="border-radius: 10%; height: 70px; width: 70px" src="{{$review->avatar}}">
                             <a>{{$review->nickname}}</a>
                         </div>

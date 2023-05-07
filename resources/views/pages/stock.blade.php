@@ -1,8 +1,8 @@
 @extends('template')
 @section('title', 'Магазин сайта')
 @section('content')
-    <h1 class="neonH text-center mb-5" style="margin-top: 50px">Магазин ролей и товаров</h1>
-    <h4 class="def-text text-center">Скрины покупок ролей и каналов присылать в <a class="neonNav" href="https://t.me/nanassshii" style="text-decoration: none; color: #fff">Tg <i class="fa-solid fa-arrow-pointer fa-2xs"></i></a></h4>
+    <h1 class="neonH text-center mb-5" style="margin-top: 150px;">Магазин ролей и товаров</h1>
+    <h4 class="def-text text-center" style="margin-bottom: 70px">Скрины покупок ролей и каналов присылать в <a class="neonNav" href="https://t.me/nanassshii" style="text-decoration: none; color: #fff">Tg <i class="fa-solid fa-arrow-pointer fa-2xs"></i></a></h4>
     <div class="mt-5 mb-5 element-animation" style="margin-bottom: 200px">
         <div class="card text-bg-dark mb-3" style="box-shadow: 0 0 15px 7px #a4f14f">
             <div class="row g-0">

@@ -1,7 +1,7 @@
 @extends('template')
 @section('title', 'Подать заявку в стафф')
 @section('content')
-    <h1 class="neonH text-center element-animation">Подать заявку в стафф</h1>
+    <h1 class="neonH text-center element-animation" style="margin-bottom: 70px; margin-top: 150px">Подать заявку в стафф</h1>
     <div class="row mt-5 element-animation">
         <div class="col-sm-12 col-lg-4" style="font-weight: lighter; font-size: 30px">
             <h3 class="neonH mb-4">Рольки стаффа(команды сервера):</h3>

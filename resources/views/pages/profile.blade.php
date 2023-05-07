@@ -11,11 +11,10 @@
             cursor: pointer;
         }
     </style>
-    <h1 class="text-center neonH my-5">Личный кабинет</h1>
-    <div class="container px-5 element-animation">
-        <div class="row px-5 form" style="border-radius: 5%; padding: 40px">
+        <h1 class="text-center neonH" style="margin-top: 100px">Личный кабинет</h1>
+        <div class="container px-5 element-animation" style="margin-top: 70px">
+            <div class="row px-5 form" style="border-radius: 5%; padding: 40px; background-color: rgba(32,37,41, 0.9);">
                 <div class="col-sm-12 col-lg-4 px-5">
-                    <h1 class="neonH" style="font-size: 30px">Аватарка</h1>
                     <img width="90%" src="{{auth()->user()->img}}" alt="" class="mb-4 img-border" style="box-shadow: 3px 1px 25px 3px #ffe6ff; border: #ffe6ff 0px solid">
                     <form action="/changeAvatar" method="post" enctype="multipart/form-data">
                         @csrf
@@ -42,18 +41,20 @@
                         <span class="def-text">{{auth()->user()->id}}</span>
                     </p>
                 </div>
-            <div class="col-sm-12 col-lg-5" style="border-left: 2px solid #ffffff">
-                <h3 class="neonH text-center">О себе</h3>
-                <p class="ms-5">
-                    <span id="aboutMeSpan" class="def-text">{{auth()->user()->about}}</span>
-                    <span id="aboutMeChangeBtn" class="def-text avatar-btn" style="height: 30px; font-size: 15px; padding: 5px 5px" onclick="renderInput('aboutMeSpan')">изменить</span>
-                    <span id="aboutMeSaveBtn" class="def-text avatar-btn" style="height: 30px; font-size: 15px; padding: 5px 5px" hidden onclick="saveData('aboutMeSpan')">сохранить</span>
-                </p>
+                <div class="col-sm-12 col-lg-5" style="border-left: 2px solid #ffffff">
+                    <h3 class="neonH text-center">О себе</h3>
+                    <p class="ms-5">
+                        <span id="aboutMeSpan" class="def-text">{{auth()->user()->about}}</span>
+                        <span id="aboutMeChangeBtn" class="def-text avatar-btn" style="height: 30px; font-size: 15px; padding: 5px 5px" onclick="renderInput('aboutMeSpan')">изменить</span>
+                        <span id="aboutMeSaveBtn" class="def-text avatar-btn" style="height: 30px; font-size: 15px; padding: 5px 5px" hidden onclick="saveData('aboutMeSpan')">сохранить</span>
+                    </p>
+                </div>
             </div>
         </div>
+
+        <hr style="color: #faf9f9; box-shadow: 0 0 10px #f6f6f6; margin-top: 120px">
     </div>
 
-    <hr style="color: #faf9f9; box-shadow: 0 0 10px #f6f6f6; margin-top: 120px">
 
     <script>
         // renderInput - это придуманная нами функция
