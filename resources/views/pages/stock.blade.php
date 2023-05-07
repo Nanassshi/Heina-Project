@@ -4,7 +4,7 @@
     <h1 class="neonH text-center mb-5" style="margin-top: 150px;">Магазин ролей и товаров</h1>
     <h4 class="def-text text-center" style="margin-bottom: 70px">Скрины покупок ролей и каналов присылать в <a class="neonNav" href="https://t.me/nanassshii" style="text-decoration: none; color: #fff">Tg <i class="fa-solid fa-arrow-pointer fa-2xs"></i></a></h4>
     <div class="mt-5 mb-5 element-animation" style="margin-bottom: 200px">
-        <div class="card text-bg-dark mb-3" style="box-shadow: 0 0 15px 7px #a4f14f">
+        <div class="card mb-3" style="box-shadow: 0 0 15px 7px #a4f14f; background-color: rgba(11,14,27, .9)">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img style="height: 100%" src="https://sun9-60.userapi.com/impg/ouQJiYMi2RK96Dsqn6siaAOgGPqMbHpWgw7ONw/vQAhPUPsi9g.jpg?size=364x373&quality=95&sign=29caf1f48cd00d48e3916644fbd6cec1&type=album" class="img-fluid rounded-start" alt="...">
@@ -23,7 +23,7 @@
     </div>
     <div class="row element-animation" style="margin-top: 100px">
         <div class="col-sm-auto col-lg-6">
-            <div class="card text-bg-dark mx-auto" style="height: 50rem; width: 30rem; box-shadow: 0 0 15px 5px #0d6ff0">
+            <div class="card mx-auto" style="height: 50rem; width: 30rem; box-shadow: 0 0 15px 5px #0d6ff0; background-color: rgba(11,14,27, .9)">
                 <img style="height: 400px;" src="https://sun9-24.userapi.com/impg/k0naLvd84_bY0IwuWaH2Xy0NLZILV1sAdancTg/j-TcZ05bTQQ.jpg?size=294x280&quality=95&sign=5c7532ea7591e90c58fde9ced0a6bc29&type=album" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title neonH" style="font-size: x-large">☄ Роль Ultimate ☄</h5>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-lg-6">
-            <div class="card text-bg-dark mx-auto" style="width: 30rem; box-shadow:#b158e2 0 0 15px 5px">
+            <div class="card mx-auto" style="width: 30rem; box-shadow:#b158e2 0 0 15px 5px; background-color: rgba(11,14,27, .9)">
                 <img style="height: 300px" src="https://sun9-25.userapi.com/impg/uE7pPfXnlYDY60v_YtS7hBujWt7cR1ssAJMtQA/MqAXk8nHUmU.jpg?size=1024x1024&quality=95&sign=d316e21e6500927c585bb1663d0f79ad&type=album" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title neonH" style="font-size: x-large">👾 Full nitro 12m 👾</h5>
@@ -75,7 +75,7 @@
     <h1 class="neonH text-center mb-5 element-animation" style="margin-top: 150px;">♾ VPN / ВПН ♾</h1>
     <div class="row element-animation">
         <div class="col-sm-12 col-lg-4">
-            <div class="card text-bg-dark mx-auto" style="height: 25rem; width: 25rem; box-shadow: #7bccff 0 0 15px 5px">
+            <div class="card mx-auto" style="height: 25rem; width: 25rem; box-shadow: #7bccff 0 0 15px 5px; background-color: rgba(11,14,27, .9)">
                 <img style="height: 190px" src="https://img.ggsel.ru/3605291/original/p1_3605291_df537bb6.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title neonH" style="font-size: x-large">Windscribe Pro</h5>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-lg-4">
-            <div class="card text-bg-dark mx-auto" style="height: 25rem; width: 25rem; box-shadow: #ff4f00 0 0 15px 5px">
+            <div class="card mx-auto" style="height: 25rem; width: 25rem; box-shadow: #ff4f00 0 0 15px 5px; background-color: rgba(11,14,27, .9)">
                 <img style="height: 190px" src="https://img.ggsel.ru/3593859/original/p1_3593859_e5492b21.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title neonH" style="font-size: x-large">Cloudflare 1.1.1.1 WARP 12Tb</h5>
@@ -128,7 +128,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-lg-4">
-            <div class="card text-bg-dark mx-auto" style="height: 25rem; width: 25rem; box-shadow: #2143ff 0 0 15px 5px">
+            <div class="card mx-auto" style="height: 25rem; width: 25rem; box-shadow: #2143ff 0 0 15px 5px; background-color: rgba(11,14,27, .9)">
                 <img style="height: 190px" src="https://i.pcmag.com/imagery/reviews/00xBy0JjVybodfIwWxeGCkZ-1.fit_scale.size_760x427.v1679417407.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title neonH" style="font-size: x-large">Windows 11 PRO</h5>
@@ -156,7 +156,7 @@
 
     <div class="row element-animation" style="margin-top: 120px">
         <div class="col-sm-12 col-lg-6">
-            <div class="card text-bg-dark mx-auto" style="width: 30rem; height: 39rem; box-shadow: #007c23 0 0 15px 5px">
+            <div class="card mx-auto" style="width: 30rem; height: 39rem; box-shadow: #007c23 0 0 15px 5px; background-color: rgba(11,14,27, .9)">
                 <img style="height: 250px" src="https://www.iphones.ru/wp-content/uploads/2023/01/chatgpt.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title neonH" style="font-size: x-large">🔥 ChatGPT OpenAI 🔥DALL-E 🔥</h5>
@@ -190,7 +190,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-lg-6">
-            <div class="card text-bg-dark mx-auto" style="height: 53rem; width: 30rem; box-shadow:#e71e1e 0 0 15px 5px">
+            <div class="card mx-auto" style="height: 53rem; width: 30rem; box-shadow:#e71e1e 0 0 15px 5px; background-color: rgba(11,14,27, .9)">
                 <img style="height: 370px" src="https://sun9-71.userapi.com/impg/Zo57RM4ks7RzhhVNLRGQcAzcdawR5vV8g0ouIQ/qZp8tLraOrU.jpg?size=295x267&quality=95&sign=ee8c1a8a4ff4e988ec3e652e6a875ea9&type=album" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title neonH" style="font-size: x-large">🔐 Приватный канал 1m/3m/&#8734; 🔐</h5>

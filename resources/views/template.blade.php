@@ -237,7 +237,7 @@
 
             .nav-link{
                 font-size: larger;
-                border-bottom: solid 1px dimgrey;
+                border-bottom: solid 1px rgba(165,83,246, 0.4);
                 margin-bottom: 20px;
             }
 
@@ -536,7 +536,7 @@
                 height: 100%;;
                 padding: 15px;
                 color: white;
-                background: #202529;
+                background: #0b0e1b;
             }
 
             .avatar-file{
@@ -637,8 +637,8 @@
                 height: 650px;
                 text-align: center;
                 padding: 15px;
-                border: 3px solid #202529;
-                box-shadow: 1px 1px 4px 1px #202529;
+                border: 3px solid #0b0e1b;
+                box-shadow: 1px 1px 4px 1px #0b0e1b;
                 border-radius: 10px;
                 color: white;
                 position: absolute;
@@ -647,7 +647,7 @@
                 bottom: 0;
                 left: 0;
                 margin: auto;
-                background: #202529;
+                background: #0b0e1b;
             }
             #info {
                 transition: .5s;
@@ -741,7 +741,7 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-dark bg-dark py-4 mb-5">
+        <nav class="navbar navbar-dark py-5 mb-5" style="background-color: #0b0e1b;">
             <div class="container-fluid py-2">
                     <a class="navbar-brand sign" style="font-size: 40px" href="/hiena">
                         <span class="flicker" style="margin-right: 5px">Hiena's</span>
@@ -751,11 +751,11 @@
                     <i class="fa-solid fa-list fa-lg ms-3"></i>
                 </button>
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
+                    <div class="offcanvas-header" style="background-color: #0b0e1b">
                         <h2 class="offcanvas-title neonNav" id="offcanvasDarkNavbarLabel">Меню сервера</h2>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
+                    <div class="offcanvas-body" style="background-color: #0b0e1b">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item mt-3">
                                 @auth()
@@ -832,7 +832,7 @@
 
         <!-- Footer -->
         <footer style="margin-top: 200px; border-top: 1px solid dimgrey; font-family: 'Raleway', sans-serif">
-            <div class="container-fluid py-5" style=" color: dimgrey; background-color: #202529">
+            <div class="container-fluid py-5" style=" color: #ac71f5; background-color: #0b0e1b">
                 <div class="small text-center text-muted">
                     <div class="row">
                         <div class="col-6">

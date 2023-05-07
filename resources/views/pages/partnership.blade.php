@@ -2,7 +2,7 @@
 @section('title', 'Партнерство')
 @section('content')
     <h1 class="neonH text-center mb-5 element-animation" style="margin-top: 100px; margin-bottom: 70px">Партнерство</h1>
-    <div class="row mt-3 element-animation" style="height: auto; border-radius: 5%; background-color: rgba(32,37,41, 0.9); padding: 30px 0px">
+    <div class="row mt-3 element-animation" style="height: auto; border-radius: 5%; background-color: rgba(11,14,27, 0.9); padding: 30px 0px">
         <div class="col-sm-12 col-lg-4">
             <img class="ms-5 img-border" style="border: 1px solid #231520; box-shadow: 3px 1px 25px 3px #691521; border-radius: 90%; height: 300px; width: 300px;" src="https://sun9-2.userapi.com/impg/FDlT9vAu68VBeK4nWVjPkiMJ8ZW4ZCMXhIv1Jg/6CHKNeeNCk4.jpg?size=1080x1080&quality=95&sign=0b21a1eec900898885a1388501e1932b&type=album">
         </div>
@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div class="row element-animation" style="height: auto; margin-top: 120px; border-radius: 5%; background-color: rgba(32,37,41, 0.9); padding: 30px 0px">
+    <div class="row element-animation" style="height: auto; margin-top: 120px; border-radius: 5%; background-color: rgba(11,14,27, 0.9); padding: 30px 0px">
         <div class="col-sm-12 col-lg-8">
             <h3 class="neonStatic ms-lg-5" style="font-weight: lighter; font-size: 35px">Главный <span class="neonStatic" style="color: white; font-size: 40px; text-shadow: 0 0 7px white">админ</span> и основной <span class="neonStatic" style="color: white; font-size: 40px; text-shadow: 0 0 7px white">партнер</span> проекта</h3>
             <p class="def-text ms-lg-5 mt-5" style="margin-top: 30px">
