@@ -13,7 +13,7 @@
     </style>
         <h1 class="text-center neonH" style="margin-top: 100px">Личный кабинет</h1>
         <div class="container px-5 element-animation" style="margin-top: 70px">
-            <div class="row px-5 form" style="border-radius: 5%; padding: 40px; background-color: rgba(32,37,41, 0.9);">
+            <div class="row px-5 form" style="border-radius: 5%; padding: 40px; background-color: rgba(11,14,27, .9)">
                 <div class="col-sm-12 col-lg-4 px-5">
                     <img width="90%" src="{{auth()->user()->img}}" alt="" class="mb-4 img-border" style="box-shadow: 3px 1px 25px 3px #ffe6ff; border: #ffe6ff 0px solid">
                     <form action="/changeAvatar" method="post" enctype="multipart/form-data">

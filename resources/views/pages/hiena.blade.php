@@ -37,7 +37,7 @@
 
             <div class="col-sm-12 col-lg-10 mx-auto" style="margin-top: 50px">
                 @foreach($reviews as $review)
-                    <div class="card review mt-4">
+                    <div class="card review mt-4" style="background-color: rgba(11,14,27, .9)">
                         <div class="card-header" style="border-bottom: 1px solid #8446c2; box-shadow: 0 0 2px 1px #8446c2;">
                             <img style="border-radius: 10%; height: 70px; width: 70px" src="{{$review->avatar}}">
                             <a>{{$review->nickname}}</a>
