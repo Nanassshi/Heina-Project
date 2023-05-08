@@ -14,20 +14,24 @@ class EventController extends Controller
         $eventContent = $request->eventContent;
         $eventFooter = $request->eventFooter;
         $cardStyle = $request->cardStyle;
+        if(($eventContent != 0) and ($eventName != 0) and ($eventFooter != 0) and ($cardStyle != 0)){
+            // Сохранение изображения
+            $path = Storage::putFile('public/eventsImg', $request->file('eventImg'));
+            $events = new Event();
+            $events->img = str_replace('public', 'storage', $path);
 
-        // Сохранение изображения
-        $path = Storage::putFile('public/eventsImg', $request->file('eventImg'));
-        $events = new Event();
-        $events->img = str_replace('public', 'storage', $path);
+            $events->name = $eventName;
+            $events->content = $eventContent;
+            $events->footer = $eventFooter;
+            $events->card_style = $cardStyle;
 
-        $events->name = $eventName;
-        $events->content = $eventContent;
-        $events->footer = $eventFooter;
-        $events->card_style = $cardStyle;
+            $events->save();
 
-        $events->save();
+            return redirect()->intended('/news');
+        }
 
-        return redirect()->intended('/news');
+        return redirect()->intended('/addEvent');
+
     }
 
     public function renderEvent()

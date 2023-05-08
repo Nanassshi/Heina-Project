@@ -13,12 +13,19 @@ class OfferController extends Controller
         $offer_message = $request->message;
         $offer_subject = $request->subject;
         $offer_contact = $request->contact;
-        $offers = new Offer();
-        $offers->user_id = $userId;
-        $offers->subject = $offer_subject;
-        $offers->message = $offer_message;
-        $offers->contact = $offer_contact;
-        $offers->save();
-        return redirect()->intended('/partnership');
+        if(($offer_message != 0) and ($offer_contact != 0) and ($offer_contact !=0)){
+            $offers = new Offer();
+            $offers->user_id = $userId;
+            $offers->subject = $offer_subject;
+            $offers->message = $offer_message;
+            $offers->contact = $offer_contact;
+            $offers->save();
+            return redirect()->intended('/partnership');
+    }else{
+
+            return redirect()->intended('/addOffer');
+
+        }
+
     }
 }

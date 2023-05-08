@@ -12,12 +12,15 @@ class ReviewController extends Controller
 {
     public function AddReview(Request $request){
         $review_content = $request->review;
-        $userId = auth()->user()->getAuthIdentifier();
-        $reviews = new Review();
-        $reviews->review = $review_content;
-        $reviews->user_id = $userId;
-        $reviews->save();
-        return redirect()->intended('/hiena');
+        if($review_content != 0){
+            $userId = auth()->user()->getAuthIdentifier();
+            $reviews = new Review();
+            $reviews->review = $review_content;
+            $reviews->user_id = $userId;
+            $reviews->save();
+            return redirect()->intended('/hiena');
+        }
+        return redirect('/hiena');
     }
 
     public function showReview(){
