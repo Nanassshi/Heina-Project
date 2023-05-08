@@ -10,12 +10,32 @@
             color: grey;
             cursor: pointer;
         }
+        .box{
+            position: relative;
+            overflow:hidden;
+            width:300px;
+            height:300px;
+        }
+        .box img {
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            width:230px;
+            height:230px;
+            object-fit:cover;
+            box-shadow: 3px 1px 25px 3px #8446c2;
+            border: #8446c2 0px solid;
+        }
+
     </style>
         <h1 class="text-center neonH" style="margin-top: 100px">Личный кабинет</h1>
         <div class="container px-5 element-animation" style="margin-top: 70px">
-            <div class="row px-5 form" style="border-radius: 5%; padding: 40px; background-color: rgba(11,14,27, .9)">
+            <div class="row px-5 form" style="border-radius: 5%; padding: 70px 70px; background-color: rgba(11,14,27, .9)">
                 <div class="col-sm-12 col-lg-4 px-5">
-                    <img width="90%" src="{{auth()->user()->img}}" alt="" class="mb-4 img-border" style="box-shadow: 3px 1px 25px 3px #ffe6ff; border: #ffe6ff 0px solid">
+                    <div class="box">
+                        <img class="img-border img-fluid" src="{{auth()->user()->img}}">
+                    </div>
                     <form action="/changeAvatar" method="post" enctype="multipart/form-data">
                         @csrf
                         <input type="file" class="form-control avatar-file" name="userAvatar">

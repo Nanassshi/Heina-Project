@@ -243,9 +243,9 @@
 
             body {
                 background-attachment: fixed;
-                background-size: 100% 100%;
-                backdrop-filter: brightness(0.4);
-                background-image: url("https://celes.club/uploads/posts/2022-06/1655756136_1-celes-club-p-neonovaya-tekstura-krasivo-1.jpg")
+                background-size: contain;
+                max-width: 100%;
+                background-image: url("https://sun9-2.userapi.com/impg/Amue5hiQ9SYm7ashWzGRYev5JpN7gHcXLxRokQ/bevE1k6GBYI.jpg?size=1920x1080&quality=95&sign=57d612ab6c51d61d025963b0437372a3&type=album")
             }
 
             .neonStatic{

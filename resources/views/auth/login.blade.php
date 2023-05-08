@@ -11,7 +11,7 @@
             </ul>
         </div>
     @endif
-    <div class="col-md-4 mx-auto form">
+    <div class="col-md-4 mx-auto form" style="background-color: rgba(11,14,27, .9)">
         <form action="/login" method="post">
             @csrf
             <div class="my-3">
