@@ -14,7 +14,7 @@ class EventController extends Controller
         $eventContent = $request->eventContent;
         $eventFooter = $request->eventFooter;
         $cardStyle = $request->cardStyle;
-        if(($eventContent != 0) and ($eventName != 0) and ($eventFooter != 0) and ($cardStyle != 0)){
+        if(($eventContent != null) and ($eventName != null) and ($eventFooter != null) and ($cardStyle != null)){
             // Сохранение изображения
             $path = Storage::putFile('public/eventsImg', $request->file('eventImg'));
             $events = new Event();

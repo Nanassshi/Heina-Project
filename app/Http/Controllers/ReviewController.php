@@ -12,7 +12,7 @@ class ReviewController extends Controller
 {
     public function AddReview(Request $request){
         $review_content = $request->review;
-        if($review_content != 0){
+        if($review_content != null){
             $userId = auth()->user()->getAuthIdentifier();
             $reviews = new Review();
             $reviews->review = $review_content;
